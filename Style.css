@@ -541,7 +541,7 @@
       margin: auto;
       overflow: hidden;
       position: relative;
-      width: 500px;
+      width: 100%;
     }
     .slider::before,
     .slider::after {
