@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product | Radhe Motors</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./adminPanel.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./adminPanel.html">
+              <img src="../Images/radhe_logo.png" class="logo" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="./adminPanel.html">Dashboard</a>
+          </li>
+          <li>
+            <a href=""> Add Product </a>
+          </li>
+          <li>
+            <a href="">See Orders</a>
+          </li>
+          <li>
+            <a href="">See Producs</a>
+          </li>
+          <li>
+            <a href="">Logout</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end of header section -->
+
+    <!-- add product section -->
+    <section class="addproduct">
+      <h1 class="head">Add Product</h1>
+      <form action="" method="get">
+        <table>
+          <tr>
+            <td>
+              <label for=""> Select Product image :</label>
+            </td>
+            <td>
+              <input
+                type="file"
+                name="product_image"
+                id="product_image"
+                accept=".jpeg,.jpg,.png"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Company Name :</label></td>
+            <td>
+              <select name="companyName" id="companyName" required>
+                <option value="TATA" disabled selected>
+                  Select Company Name
+                </option>
+                <option value="TATA">TATA</option>
+                <option value="MAHINDRA">MAHINDRA</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Car model Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="carname"
+                id="carname"
+                placeholder="enter car name"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Part Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="carname"
+                id="carname"
+                placeholder="Enter Part Name"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Product Price :</label></td>
+            <td>
+              <input
+                type="number"
+                name="product_price"
+                id="product_price"
+                class="Product Price"
+                placeholder="Product Price"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input
+                type="submit"
+                name="submit"
+                id="submit"
+                value="Add Product"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+    <!-- end of add product section -->
+
+    <!-- footer section -->
+    <footer>
+      <h4>
+        <a href="../index.html" target="_blank"> Go to Our website</a>
+      </h4>
+    </footer>
+    <!-- end of footer section -->
+  </body>
+</html>
